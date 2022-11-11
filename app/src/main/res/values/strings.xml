@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">NutriSys</string>
+    <string name="btnOne">Acesse sua conta</string>
+    <string name="btnTwo">Faça seu cadastro</string>
+    <string name="imgDescription">Imagem de apresentação</string>
+    <string name="logoDescription">Logo principal do aplicativo</string>
+    <string name="txtHome">Tenha toda a gestão da sua \n rotina profissional e dos \n seus pacientes no seu celular.</string>
+    <string name="cadTitulo">Faça seu cadastro!</string>
+    <string name="cadLabNome">Nome</string>
+    <string name="cadPlaceHolderNome">Insira seu nome completo</string>
+    <string name="cadLabEmail">Email</string>
+    <string name="cadPlaceHolderEmail">Entre com seu e-mail</string>
+    <string name="cadLabTelefone">Telefone</string>
+    <string name="cadPlaceHolderTelefone">Insira seu telefone com DDD</string>
+    <string name="cadLabSenha">Senha</string>
+    <string name="cadPlaceHolderSenha">Crie uma senha</string>
+    <string name="cadBotao">Criar Cadastro</string>
+    <string name="loginTitulo">Faça seu login</string>
+    <string name="loginLabelEmail">E-mail</string>
+    <string name="loginInputEmail">Entre com seu email</string>
+    <string name="loginLabelSenha">Senha</string>
+    <string name="loginInputSenha">Entre a senha</string>
+    <string name="loginBtn">Login</string>
+    <string name="homeNome">Olá, Fulano</string>
+    <string name="homeSubnome">Confira as opções que temos para você!</string>
+    <string name="homeTextImage">Ganhe agora 20% de \n desconto na sua \n consulta!</string>
 </resources>

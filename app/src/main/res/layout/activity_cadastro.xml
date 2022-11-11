@@ -4,6 +4,143 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundokadastro"
     tools:context=".Cadastro">
+
+    <TextView
+        android:id="@+id/cad_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/cadTitulo"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cad_label_nome"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/cadLabNome"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_titulo" />
+
+    <EditText
+        android:id="@+id/cad_input_nome"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:background="@drawable/round_input"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:scaleX="1"
+        android:text="@string/cadPlaceHolderNome"
+        android:textAlignment="center"
+        android:textColor="#4E4D4D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_label_nome" />
+
+    <TextView
+        android:id="@+id/cad_label_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/cadLabEmail"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_input_nome" />
+
+    <EditText
+        android:id="@+id/cad_input_email"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_input"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/cadPlaceHolderEmail"
+        android:textAlignment="center"
+        android:textColor="#4E4D4D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_label_email" />
+
+    <TextView
+        android:id="@+id/cad_label_telefone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/cadLabTelefone"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_input_email" />
+
+    <EditText
+        android:id="@+id/cad_input_telefone"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_input"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/cadPlaceHolderTelefone"
+        android:textAlignment="center"
+        android:textColor="#4E4D4D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_label_telefone" />
+
+    <TextView
+        android:id="@+id/cad_label_senha"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/cadLabSenha"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_input_telefone" />
+
+    <EditText
+        android:id="@+id/cad_input_senha"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_input"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="@string/cadPlaceHolderSenha"
+        android:textAlignment="center"
+        android:textColor="#4E4D4D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_label_senha" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/cadBotao"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/round_cad_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cad_input_senha" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
