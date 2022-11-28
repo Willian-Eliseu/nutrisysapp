@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Atendimentos">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/atd_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn_primary"
+            android:text="@string/btn_voltar"
+            android:padding="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" >
+
+        <ScrollView
+            android:id="@+id/atd_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/atd_nome1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nutricionista: Willian Silva"
+                    android:textAlignment="center"
+                    android:paddingTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/atd_data1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data: 10/11/2022" />
+
+                <TextView
+                    android:id="@+id/atd_msg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English." />
+
+                <TextView
+                    android:id="@+id/atd_nome2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nutricionista: Daniel Marques"
+                    android:textAlignment="center"
+                    android:paddingTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/atd_data2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data: 15/11/2022" />
+
+                <TextView
+                    android:id="@+id/atd_msg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English." />
+
+                <TextView
+                    android:id="@+id/atd_nome3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nutricionista: Jenifer Herrera Said"
+                    android:textAlignment="center"
+                    android:paddingTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/atd_data3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data: 21/11/2022" />
+
+                <TextView
+                    android:id="@+id/atd_msg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English." />
+
+                <TextView
+                    android:id="@+id/atd_nome4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nutricionista: Alexandre"
+                    android:textAlignment="center"
+                    android:paddingTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/atd_data4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data: 15/09/2022" />
+
+                <TextView
+                    android:id="@+id/atd_msg4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English." />
+
+                <TextView
+                    android:id="@+id/atd_nome5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nutricionista: Teste de Nutricionista"
+                    android:textAlignment="center"
+                    android:paddingTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/atd_data5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Data: 05/09/2022" />
+
+                <TextView
+                    android:id="@+id/atd_msg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English." />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

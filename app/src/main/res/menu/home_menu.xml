@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="@string/nav_btn_home_txt"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:id="@+id/nav_agenda"
+        android:title="@string/nav_btn_agenda_txt"
+        android:icon="@drawable/ic_baseline_calendar_month_24"/>
+
+    <item android:id="@+id/nav_novoatendimento"
+        android:title="@string/nav_btn_novo_txt"
+        android:icon="@drawable/ic_baseline_add_box_24"/>
+
+    <item android:id="@+id/nav_receitas"
+        android:title="@string/nav_btn_receitas_txt"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item android:id="@+id/nav_meusdados"
+        android:title="@string/nav_btn_meusdados_txt"
+        android:icon="@drawable/ic_baseline_person_24"/>
+</menu>

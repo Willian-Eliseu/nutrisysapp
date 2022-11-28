@@ -1,27 +1,98 @@
 <resources>
-    <string name="app_name">NutriSys</string>
-    <string name="btnOne">Acesse sua conta</string>
-    <string name="btnTwo">Faça seu cadastro</string>
-    <string name="imgDescription">Imagem de apresentação</string>
-    <string name="logoDescription">Logo principal do aplicativo</string>
-    <string name="txtHome">Tenha toda a gestão da sua \n rotina profissional e dos \n seus pacientes no seu celular.</string>
-    <string name="cadTitulo">Faça seu cadastro!</string>
-    <string name="cadLabNome">Nome</string>
-    <string name="cadPlaceHolderNome">Insira seu nome completo</string>
-    <string name="cadLabEmail">Email</string>
-    <string name="cadPlaceHolderEmail">Entre com seu e-mail</string>
-    <string name="cadLabTelefone">Telefone</string>
-    <string name="cadPlaceHolderTelefone">Insira seu telefone com DDD</string>
-    <string name="cadLabSenha">Senha</string>
-    <string name="cadPlaceHolderSenha">Crie uma senha</string>
-    <string name="cadBotao">Criar Cadastro</string>
-    <string name="loginTitulo">Faça seu login</string>
-    <string name="loginLabelEmail">E-mail</string>
-    <string name="loginInputEmail">Entre com seu email</string>
-    <string name="loginLabelSenha">Senha</string>
-    <string name="loginInputSenha">Entre a senha</string>
-    <string name="loginBtn">Login</string>
-    <string name="homeNome">Olá, Fulano</string>
-    <string name="homeSubnome">Confira as opções que temos para você!</string>
-    <string name="homeTextImage">Ganhe agora 20% de \n desconto na sua \n consulta!</string>
+    <string name="app_name">AplicativoNutrisys</string>
+    <string name="nutrisysLogo">Logo principal do sistema</string>
+    <string name="img_fundoIndex">Fundo da página inicial</string>
+    <string name="img_fundoCadastro">Fundo da tela cadastro</string>
+    <string name="txt_descricaoIndex">Tenha toda a gestão da sua \n rotina profissional e dos \n seus pacientes no seu celular</string>
+    <string name="btn_txt_login">Acesse sua conta</string>
+    <string name="btn_txt_cadastro">Faça seu cadastro</string>
+    <string name="cadTxt1">Faça seu cadastro!</string>
+    <string name="logTitulo">Faça Login!</string>
+    <string name="cadTxt2">Nome:</string>
+    <string name="cadTxt3">E-mail:</string>
+    <string name="cadTxt4">Telefone:</string>
+    <string name="cadTxt5">Senha:</string>
+    <string name="cadInp1">Insira seu nome completo</string>
+    <string name="cadInp2">Entre com seu e-mail</string>
+    <string name="cadInp3">Insira seu telefone com DDD</string>
+    <string name="cadInp4">Crie uma senha</string>
+    <string name="cadBtn">Criar Cadastro</string>
+    <string name="logInp2">Insira sua senha</string>
+    <string name="logInp1">Insira seu email</string>
+    <string name="log_btn">Entrar</string>
+    <string name="nav_btn_home_txt">Home</string>
+    <string name="nav_btn_agenda_txt">Agenda</string>
+    <string name="nav_btn_novo_txt">Novo</string>
+    <string name="nav_btn_receitas_txt">Receitas</string>
+    <string name="nav_btn_meusdados_txt">Meus Dados</string>
+    <string name="nav_btn_profissionais_txt">Profissionais</string>
+    <string name="home_img_text">Ganhe agora 20% de \n desconto na sua \n consulta!</string>
+    <string name="home_text_name">Olá, Maria!</string>
+    <string name="home_text_saudacao">Confira as opções que temos para você!</string>
+    <string name="home_img_descricao">Imagem de promoção da página inicial</string>
+    <string name="btn_voltar">Clique para voltar</string>
+    <string name="receitas_titulo">Substituições de alimentos</string>
+    <string name="receitas_subtitulo1">Para que serve a lista de substituição?</string>
+    <string name="receitas_subtitulo2">Determinação de equivalências e exemplos</string>
+    <string name="receitas_subtitulo3">Frutas</string>
+    <string name="receitas_subtitulo4">Carnes</string>
+    <string name="receitas_subtitulo5">Oleaginosas</string>
+    <string name="receitas_subtitulo6">Como os alimentos substitutos podem ser apresentados no plano alimentar?</string>
+    <string name="receitas_descricao1">
+        O uso da lista de substituição faz parte do processo de educação nutricional, pois é através dela que o paciente consegue entender
+        melhor os grupos alimentares e criar autonomia para fazer suas escolhas nas refeições do dia-a-dia.
+        \n
+        A lista de substituição serve como um guia, onde os alimentos são separados conforme os grupos alimentares e cada grupo possui
+        uma média calórica ou uma média da quantidade de determinado nutriente, como por exemplo, carboidratos ou proteínas. Dessa forma é
+        possível que o paciente tenha mais autonomia na hora de fazer suas escolhas alimentares conforme os grupos definidos no planejamento,
+        além de permitir maior flexibilidade no cardápio, possibilitando sair da monotonia alimentar.
+    </string>
+    <string name="receitas_descricao2">
+        A lista de substituição de alimentos (LSA) costuma tomar como referência as medidas da Tabela Brasileira de Composição de Alimentos (TACO).
+        Assim, após conhecer o perfil de seu paciente, ter dados sobre seu metabolismo basal e sobre as necessidades calóricas e nutricionais dele,
+        é possível determinar as principais equivalências.
+    </string>
+    <string name="receitas_descricao3">
+        O café da manhã do plano alimentar tem uma porção de frutas com um pouquinho de aveia? Mostre a seu paciente que ele não precisa comer
+        religiosamente uma banana média, por exemplo. Em vez disso, adicione uma lista de quantidade proporcional de outras frutas.
+        \n
+        Cabem aqui 20 unidades de morango, uma fatia grossa de melancia ou uma unidade média de mexerica. A variedade, além de tornar a rotina
+        mais saborosa, permite que sejam aproveitados os itens de cada safra.
+        \n
+        A medida das porções, ademais, evita que haja excesso de carboidratos consumidos diariamente, nesse caso, já que frutas diferentes podem
+        ter índices glicêmicos elevados.
+    </string>
+    <string name="receitas_descricao4">
+        Para pacientes que não seguem padrões alimentares veganos ou vegetarianos, a lista de carnes, uma das principais fontes de
+        proteína de uma dieta onívora, requer bastante atenção. O excesso que o paciente pode cometer, afinal, ao errar as proporções,
+        tende a atrapalhar seus objetivos com o plano.
+        \n
+        Um filé médio de peixe ou de frango grelhado, por exemplo, corresponderia a uma fatia menor daquela derivada de carne vermelha,
+        rica em gorduras saturadas, com as quais se deve ter mais cautela.
+    </string>
+    <string name="receitas_descricao5">
+        Queridinhas dos lanches de muitos pacientes que têm procurado seguir um estilo de vida mais saudável, as oleaginosas são pequenas,
+        mas bastante calóricas! Embora tragam diversos benefícios, como presença de ômega 3, vitaminas, fibras alimentares e até mesmo proteínas,
+        especialmente a amêndoa, elas devem ser incluídas na alimentação com parcimônia.
+        \n
+        Para cada quatro unidades de castanha-do-pará, a substituição pode ser de sete unidades de amêndoas ou avelãs. A precisão, afinal,
+        faz diferença para o perfil de cada indivíduo.
+    </string>
+    <string name="receitas_descricao6">
+        No plano alimentar, cada refeição deve conter as porções de cada grupo alimentar para que o paciente possa verificar na lista de
+        substituição o que poderá optar para comer. Além disso, é fundamental que o nutricionista explique em consulta sobre todos os detalhes
+        de como utilizar os alimentos substitutos conforme o cardápio do paciente.
+        \n
+        A lista de substituição pode ser disponibilizada em um aplicativo ou em uma folha impressa e deve ser entregue junto ao plano alimentar.
+        É importante levar em consideração o formato que o paciente prefere para facilitar sua rotina, pois no início ele precisará visualizar a
+        lista com frequência e de onde estiver.
+    </string>
+    <string name="prof_titulo">Profissionais cadastrados</string>
+    <string name="perf_name_label">Nome</string>
+    <string name="perf_email_label">E-mail</string>
+    <string name="perf_fone_label">Telefone</string>
+    <string name="perf_name_input">Seu Nome Aqui</string>
+    <string name="perf_fone_input">14 9 9999 9999</string>
+    <string name="perf_email_input">meu@email.com</string>
+    <string name="atd_msg_field">Sua mensagem aqui...</string>
 </resources>

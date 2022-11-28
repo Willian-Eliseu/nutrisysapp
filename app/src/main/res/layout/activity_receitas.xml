@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Receitas">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/receitas_btn_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn_primary"
+            android:padding="10dp"
+            android:text="@string/btn_voltar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/receitas_txt_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/receitas_titulo"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/receitas_txt_sub1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/receitas_subtitulo1"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/receitas_txt_desc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/receitas_descricao1" />
+
+            <TextView
+                android:id="@+id/receitas_txt_sub2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/receitas_subtitulo2"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/receitas_txt_desc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/receitas_descricao2" />
+
+            <TextView
+                android:id="@+id/receitas_txt_sub3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/receitas_subtitulo3"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/receitas_txt_desc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/receitas_descricao3" />
+
+            <TextView
+                android:id="@+id/receitas_txt_sub4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/receitas_subtitulo4"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/receitas_txt_desc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/receitas_descricao4" />
+
+            <TextView
+                android:id="@+id/receitas_txt_sub5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/receitas_subtitulo5"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/receitas_txt_desc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/receitas_descricao5" />
+
+            <TextView
+                android:id="@+id/receitas_txt_sub6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:text="@string/receitas_subtitulo6"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/receitas_txt_desc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/receitas_descricao6" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
